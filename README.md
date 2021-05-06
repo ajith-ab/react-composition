@@ -1,13 +1,8 @@
-# react-composability-over-configurability
+React Component Composition 
 
-[![Build Status](https://travis-ci.org/the-road-to-learn-react/react-composability-over-configurability.svg?branch=master)](https://travis-ci.org/the-road-to-learn-react/react-composability-over-configurability) [![Slack](https://slack-the-road-to-learn-react.wieruch.com/badge.svg)](https://slack-the-road-to-learn-react.wieruch.com/) [![Greenkeeper badge](https://badges.greenkeeper.io/the-road-to-learn-react/react-composability-over-configurability.svg)](https://greenkeeper.io/)
+ - Allows for code reusability between component 
+ - we build components from other components, of varying complexity and specialization through props
+ - A higher-order component is another pattern of the React component composition model. 
+ - It is just a function that takes in a component and creates a new, "enhanced" component from it.
+ - It can be used when we have multiple components that may share some properties like functionality or data
 
-React gives you the power of composing components into each other with its children prop. You should make use of it rather than passing "configurational" props to one complex component. That way you keep your components lightweight and give yourself lots of flexibility for adjustments. [Read more about it.](https://www.robinwieruch.de/react-component-composition)
-
-## Installation
-
-- `git clone git@github.com:the-road-to-learn-react/react-composability-over-configurability.git`
-- cd react-composability-over-configurability
-- npm install
-- npm start
-- visit `http://localhost:3000/`
