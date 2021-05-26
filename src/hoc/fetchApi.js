@@ -1,3 +1,3 @@
 
 
-export const FetchRankAPi = () => new Promise((resolve, reject)=> resolve(3))
+export const fetchRank = () => new Promise((resolve, reject)=> resolve(3))

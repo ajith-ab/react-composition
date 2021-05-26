@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FetchRankAPi } from './fetchApi';
+import { fetchRank } from './fetchApi';
 
 const withRanking = WrappedComponent => {
     return class extends Component { 
@@ -12,7 +12,7 @@ const withRanking = WrappedComponent => {
          }
 
         componentDidMount(){
-            FetchRankAPi(this.props.id).then((ranking)=> this.setState({ rank: ranking  }))
+            fetchRank(this.props.id).then((ranking)=> this.setState({ rank: ranking  }))
         }
             
 
